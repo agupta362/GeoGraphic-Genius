@@ -20,41 +20,6 @@ A simple Java quiz game that tests your geography knowledge with multiple-choice
 
    *You can click on the instructions tab before starting the game to know more about how to play.
 
-Game Files
-  -> easy_questions.txt: Simple questions
-  
-  -> medium_questions.txt: Medium difficulty
-  
-  -> hard_questions.txt: Tough questions
-  
-  -> Game Design.docx: My planning document
-
-
-Troubleshooting
-  1) If sounds don't work: Make sure .wav files are in src/geographicGame folder
-  
-  2) If questions don't load: Keep .txt files in main folder
-  
-  3) Can't start game: Check you have Java 17+ installed
-
-📚 File Structure
-GeoGenius/
-├── src/
-│   └── geographicGame/          # Source code
-│       ├── GameManagerGUI.java  # Main entry point
-│       ├── GameWindow.java      # Game logic
-│       ├── Question.java        # Question data model
-│       ├── QuestionBank.java    # Question loader
-│       └── background.wav       # Sound effects (WAV format)
-|       |--- incorrect/ correct.wav   
-├── easy_questions.txt           # Level 1 questions
-├── medium_questions.txt         # Level 2 questions
-├── hard_questions.txt           # Level 3 questions
-└── highscore.txt                # high scores list
-
-
-  
-
 ## How to Run
   1. Make sure you have [Java installed](https://www.java.com)
   2. Download the project files
@@ -87,7 +52,7 @@ GeoGenius/
 
    *You can click on the instructions tab before starting the game to know more about how to play.
 
-Game Files
+**Game Files**
   -> easy_questions.txt: Simple questions
   
   -> medium_questions.txt: Medium difficulty
@@ -97,14 +62,14 @@ Game Files
   -> Game Design.docx: My planning document
 
 
-Troubleshooting
+**Troubleshooting**
   1) If sounds don't work: Make sure .wav files are in src/geographicGame folder
   
   2) If questions don't load: Keep .txt files in main folder
   
   3) Can't start game: Check you have Java 17+ installed
 
-📚 File Structure
+**📚 File Structure**
 GeoGenius/
 ├── src/
 │   └── geographicGame/          # Source code
